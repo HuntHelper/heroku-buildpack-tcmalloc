@@ -8,7 +8,7 @@ compatible platforms.
 ## Install
 
 ```console
-heroku buildpacks:add https://github.com/gaffneyc/heroku-buildpack-tcmalloc.git
+heroku buildpacks:add https://github.com/HuntHelper/heroku-buildpack-tcmalloc.git
 git push heroku master
 ```
 
