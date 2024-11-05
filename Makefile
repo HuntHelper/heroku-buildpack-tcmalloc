@@ -1,6 +1,6 @@
 default: heroku-24
 
-VERSION := 2.9.2
+VERSION := 2.9.3
 ROOT_DIR := $(shell dirname $(abspath $(lastword $(MAKEFILE_LIST))))
 
 clean:

@@ -15,7 +15,7 @@ if [ -f $ENV_DIR/TCMALLOC_VERSION ]; then
   version=$(cat $ENV_DIR/TCMALLOC_VERSION)
 fi
 
-url="https://github.com/gaffneyc/heroku-buildpack-tcmalloc/releases/download/$STACK/tcmalloc-$version.tar.bz2"
+url="https://github.com/HuntHelper/heroku-buildpack-tcmalloc/releases/download/$STACK/tcmalloc-$version.tar.bz2"
 dest="$BUILD_DIR/vendor/tcmalloc"
 
 echo "-----> Vendoring tcmalloc"
